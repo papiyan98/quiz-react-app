@@ -9,3 +9,5 @@ The features used are listed below:
 * Context API
 
 Click on heading to open the app in Github Pages.
+
+App code in "code" folder.
