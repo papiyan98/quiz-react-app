@@ -1,0 +1,83 @@
+.app {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 500px;
+  height: 450px;
+  padding: 20px 40px;
+  border-radius: 10px;
+
+  color: #fff;
+  background: #6e6e72;
+}
+
+.app-header {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #282c34;
+}
+
+.app-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.start-btn, .next-btn, .tryAgain-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 40px 20px 0;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  background: #393d46;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tryAgain-btn {
+  right: 50%;
+  transform: translateX(50%);
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.start-btn:hover, .next-btn:hover, .tryAgain-btn:hover {
+  background: #464a54;
+}
+
+.question {
+  font-size: 1.5em;
+}
+
+.answer {
+  padding: 5px 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  border: 2px solid #d5d5d5;
+  cursor: pointer;
+}
+
+.answer.selected {
+  background: rgba(0, 255, 0, 0.3);
+}
+
+.total-questions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 40px 40px;
+}
+
+.result {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.spentTime {
+  font-size: 1.2em;
+  text-align: center;
+}
